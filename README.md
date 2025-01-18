@@ -1,4 +1,4 @@
-##### **Create subdivisions of scripts based on each step of the html file. Then I need to explain how the github is structured in this readme, and move the text that is currently in this readme. Finally link all the images, genomes, etc that I used that are too big to push to github.
+##### **Create subdivisions of scripts based on each step of the html file. Then I need to explain how the github is structured in this readme, and move the text that is currently in this readme. Finally link all the images, genomes, etc that I used that are too big to push to github.**
 
 
 
