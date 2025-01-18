@@ -1,4 +1,9 @@
-This is the first commit of the project.
+##### **Create subdivisions of scripts based on each step of the html file. Then I need to explain how the github is structured in this readme, and move the text that is currently in this readme. Finally link all the images, genomes, etc that I used that are too big to push to github.
+
+
+
+
+his is the first commit of the project.
 
 
 Early answers for part 2 (Quality Checks) of workflow
@@ -63,3 +68,13 @@ Non TNBC: High amount of duplicated sequences. Remaining % of seqs if deduplicat
 TNBC: Per base sequence content. Sequence duplication levels for some samples. overrepresented sequences in some samples.
 
 Normal: Per base sequence content. Sequence duplication levels in some samples.
+
+# SIDE NOTE: I TRIMMED and/or filtered the original fastq files with fastp, and then performed QC on those. INterestingly, according to the multi qc report, it almost seems that the quality of these fastp reads are worse#
+
+There are 2 workfflows I have right now. COmpletely raw, where I didnt perform and trimming or filtering on the fastq, and no deduplicating. There is a second one i am working on right now, denoted by the prefix fastp_ that i performed fastp on and deduplicated with samtools rmdup.
+
+## **PART 3**
+
+### **What are the alignment rates observed across samples?**
+### **What is concordant alignment and how many reads are concordantly aligned in the different samples?**
+### **Is there evidence of multimapped reads? If so, is this a concern for downstream analyses?**
