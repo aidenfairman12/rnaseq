@@ -1,7 +1,7 @@
 #!/bin/bash
 
-input_file="/data/users/afairman/rnaseq/featureCounts/GRCh38/cleanGRCh38.txt"
-output_file="/data/users/afairman/rnaseq/featureCounts/GRCh38/GRCh38.txt"
+input_file="/data/users/afairman/rnaseq/featureCounts/GRCh38_with_cRP/GRch38_with_cRP.txt"
+output_file="/data/users/afairman/rnaseq/featureCounts/GRCh38_with_cRP/GRch38_with_cRP.txt2"
 echo "hello"
 
 # Read the first line

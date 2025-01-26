@@ -1,7 +1,7 @@
 #!/bin/bash
 
-input_file="/data/users/afairman/rnaseq/featureCounts/GRCh38/GRCh38.txt"
-output_file="/data/users/afairman/rnaseq/featureCounts/GRCh38/cleanGRCh38.txt"
+input_file="/data/users/afairman/rnaseq/featureCounts/2GRch38_with_cRP.txt"
+output_file="/data/users/afairman/rnaseq/featureCounts/2GRch38_with_cRP.txt2"
 
 # Remove the first line and specific columns
 # Example: Remove columns 2, 3, and 4
