@@ -6,10 +6,11 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 
-# Load Apptainer module if necessary
+###USE WRAPPER SCRIPT TO RUN THIS SCRIPT
 module load apptainer
 
 # Define input and output directories
+INPUT_DIR="/data/courses/rnaseq_course/breastcancer_de/reads/"
 OUTPUT_DIR="/data/users/afairman/finalGrouph/qc/cleaned"
 IMAGE="/data/users/afairman/rnaseq/images/fastqc-0.12.1.sif"
 

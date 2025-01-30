@@ -6,8 +6,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 
-#!!!!! DO NOT RUN THIS SCRIPT ALONE. RUN IT FROM THE WRAPPER SCRIPT "submit_hisat2.sh" IN THE SAME DIRECTORY
-### UPDATE THIS LINE EACH TIME YOU USE THIS WITH THE LAST SET OF FILES USED: eg. /data/users/afairman/rnaseq/fastp/rnaseq/fastp/X_R1_fastp.R1.fq.gz
+#!!!!! DO NOT RUN THIS SCRIPT ALONE. RUN IT FROM THE WRAPPER SCRIPT "wrapper_hisat2.sh" IN THE SAME DIRECTORY
+
 module load apptainer
 
 # Define path variables and mkdir

@@ -12,6 +12,9 @@
 
 module load apptainer
 
+###This script can be used to investigate statistics about each bam file. Not necessary for analysis.
+
+
 #variable definitions
 HOME_DIR="/data/users/afairman/rnaseq"
 IMAGE="/containers/apptainer/hisat2_samtools_408dfd02f175cd88.sif"

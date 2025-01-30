@@ -6,7 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 
-
+##USE WRAPPER SCRIPT TO EXECUTE THIS FILE
 module load apptainer
 
 
