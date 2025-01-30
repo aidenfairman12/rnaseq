@@ -1,5 +1,5 @@
 
-### **How to run this code**
+## **How to run this code**
 
 In this repository, all scripts used in this project are in a folder /scripts. There are sub folders of /scripts, that correspond to the steps in the handout. Further information below to reproduce exact steps
 
@@ -23,4 +23,4 @@ In this repository, all scripts used in this project are in a folder /scripts. T
     2. execute both clean_featureCounts scripts. Make sure you create a new output file
     3. execute fractions_featureCounts script to proportions.
 
-5. Run the r script, Statistical analysis to perform PCA, DE analysis, and overrepresentation analysis
+5-7. Run the r script StatisticalAnalysis.R to perform PCA, DE analysis, and overrepresentation analysis
