@@ -1,7 +1,7 @@
-# **Create subdivisions of scripts based on each step of the html file. Then I need to explain how the github is structured in this readme, and move the text that is currently in this readme. Finally link all the images, genomes, etc that I used that are too big to push to github.**
+### **Create subdivisions of scripts based on each step of the html file. Then I need to explain how the github is structured in this readme, and move the text that is currently in this readme. Finally link all the images, genomes, etc that I used that are too big to push to github.**
 
 
-## **How to run this code**
+### **How to run this code**
 
 In this repository, all scripts used in this project are in a folder /scripts. There are sub folders of /scripts, that correspond to the steps in the handout. Further information below to reproduce exact steps
 
@@ -25,4 +25,4 @@ In this repository, all scripts used in this project are in a folder /scripts. T
     2. execute both clean_featureCounts scripts. Make sure you create a new output file
     3. execute fractions_featureCounts script to proportions.
 
-5.
+5. Run the r script, Statistical analysis to perform PCA, DE analysis, and overrepresentation analysis
